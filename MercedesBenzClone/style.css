@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500&family=Poppins:wght@300;400&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Poppins;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+}
+
+.index-img {
+    padding-left: 50px;
+    margin-top: 10px;
+    
+}
+
+.index-text {
+    font-family: Playfair-Display;
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+.container-fluid {
+    background: black;
+    display: flex;
+    align-items: flex-end;
+    justify-content: left;
+    text-align: center;
+
+}
+
+#btn-user {
+    background-color: black;
+    border-radius: 0 solid;
+    border: none;
+    border-radius: 0;
+}
+
+#btn-user:hover {
+    background-color: rgb(49, 49, 47);
+}
+
+.input-group {
+    width: 500px;
+    margin-bottom: 50px;
+    margin-left: 350px;
+    display: flex;
+    align-items: center;
+    width: 500px;
+}
+
+.form-control[type=text] {
+    background-color: rgb(49, 47, 47);
+    color: rgb(165, 159, 159);
+    border: none;
+}
+
+.form-control::placeholder {
+    color: rgb(165, 159, 159);
+}
+
+#btn-search {
+    color: rgb(49, 47, 47);
+}
+
+.input-group>a {
+    text-decoration: none;
+    color: rgb(146, 142, 142);
+    margin-right: 20px;
+    align-items: center;
+    font-size: 10px;
+}
+
+.input-group>a:hover {
+    color: white;
+}
+
+.container-fluid>a {
+    text-decoration: none;
+    color: rgb(146, 142, 142);
+    margin: 40px 15px 25px 40px;
+}
+
+.container-fluid>img {
+    margin-left: 10px;
+}
+
+.links {
+    background: black;
+    height: 65px;
+
+}
+
+.links>ul {
+    display: flex;
+    justify-content: flex-start;
+    list-style-type: none;
+    color: white;
+    margin-bottom: 0;
+    margin-top: 0, 2em;
+    width: 1200px;
+    height: 50px;
+    align-items: center;
+}
+
+.links-1 {
+    color: rgb(146, 142, 142);
+    margin-left: 75px;
+}
+
+.main-screen {
+    background-image: linear-gradient(to top right, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.1)), url(/images/mercedes-e-class-bg.jpg);
+    width: 100%;
+    background-size: cover;
+    height: 80vh;
+}
+
+.main-screen>h1 {
+    font-family: Plafair-Display;
+    font-size: 60px;
+    color: black;
+    padding-top: 175px;
+    margin-left: 70px;
+}
+
+.main-screen>h5 {
+    margin-left: 75px;
+    padding-top: 25px;
+    font-size: 20px;
+}
+
+#btn-browse {
+    margin-left: 75px;
+    border-radius: 0;
+    margin-top: 70px;
+    width: 150px;
+    height: 50px;
+}
+
+.features-header>h1 {
+    margin-left: 75px;
+    font-family: Plafair-Display;
+    margin-top: 75px;
+    margin-bottom: 75px;
+} 
+
+.features {
+    display: flex;
+    margin-top: 20px;
+    text-align: left;
+}
+
+.online-buy {
+    display: flex;
+    align-items: center;
+}
+
+.image-container {
+    flex: 1;
+    text-align: left;
+    margin-left: 75px;
+}
+
+img {
+    margin-left: 15px ;
+}
+
+.text-container {
+    padding: 20px;
+    box-sizing: border-box;
+    margin-right: 10px;
+    
+}
+
+.text-container>h1{
+    text-align: left;
+    font-family: Plafair-Display;;
+    font-size: 2em;
+}
+.text-container>p{
+    text-align: left;
+}
+
+#btn-online{
+    border-radius: 0;
+    width: 150px;
+    height: 50px;
+}
