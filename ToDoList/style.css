@@ -1,0 +1,9 @@
+#filters span{
+    cursor: pointer;
+    font-weight: bold;
+    
+}
+
+#filters span.active{
+    color: darkcyan;
+}
